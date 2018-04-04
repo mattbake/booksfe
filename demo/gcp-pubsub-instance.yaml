@@ -4,5 +4,7 @@ kind: ServiceInstance
 metadata:
   name: gcp-pubsub-instance
 spec:
-  clusterServiceClassExternalName: pubsub
-  clusterServicePlanExternalName: pubsub-plan
+  clusterServiceClassExternalName: cloud-pubsub
+  clusterServicePlanExternalName: 20180313-00
+  parameters:
+    topicId: ####PUBSUB_TOPIC_ID####
