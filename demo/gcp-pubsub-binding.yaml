@@ -9,5 +9,6 @@ spec:
   parameters:
     # The user should update the service account here to point to the service
     # account in their project they created for this demo.
-    roles: ["roles/pubsub.admin"]
-    serviceAccount: ## INSERT SERVICE ACCOUNT HERE ##
+    # roles: ["roles/pubsub.admin"] <- commented out intentionally
+    serviceAccount: sa-sb-b58f266e-8da4-4035-9a6b@primeval-legacy-180316.iam.gserviceaccount.com
+    bindingType: publisher
