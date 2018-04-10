@@ -9,5 +9,5 @@ spec:
   parameters:
     # The user should update the service account here to point to the service
     # account in their project they created for this demo.
-    serviceAccount: ####SERVICE_ACCOUNT IN THIS FORMAT: ${accountId}@${PROJECT_NAME}.iam.gserviceaccount.com”####
+    serviceAccount: ####SERVICE_ACCOUNT IN THIS FORMAT:"${accountId}@${PROJECT_NAME}.iam.gserviceaccount.com”####
     bindingType: publisher
